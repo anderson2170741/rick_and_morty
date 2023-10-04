@@ -12,7 +12,7 @@ function App() {
   const [locationOptions, setLocationOptions] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [currentCards, setCurrentCards] = useState([]); // Agregamos currentCards
+  const [currentCards, setCurrentCards] = useState([]);
 
   useEffect(() => {
     const randomId = Math.floor(Math.random() * 125) + 1;
